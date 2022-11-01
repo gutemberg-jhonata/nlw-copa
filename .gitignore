@@ -1,3 +1,4 @@
 node_modules
 .vscode
 ERD.svg
+prisma/*.db*
