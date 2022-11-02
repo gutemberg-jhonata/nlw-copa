@@ -1,4 +1,4 @@
-lockfileVersion: 5.3
+lockfileVersion: 5.4
 
 specifiers:
   '@fastify/cors': ^8.1.1
@@ -18,7 +18,7 @@ dependencies:
 devDependencies:
   '@mermaid-js/mermaid-cli': 9.1.7
   prisma: 4.5.0
-  prisma-erd-generator: 1.2.2_prisma@4.5.0
+  prisma-erd-generator: 1.2.2_u5kgfm7va5nxgxj5sebpt5i7rm
   tsx: 3.11.0
   typescript: 4.8.4
 
@@ -50,6 +50,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [arm]
     os: [android]
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -58,6 +59,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [loong64]
     os: [linux]
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -134,7 +136,6 @@ packages:
   /@prisma/engines/4.5.0:
     resolution: {integrity: sha512-4t9ir2SbQQr/wMCNU4YpHWp5hU14J2m3wHUZnGJPpmBF8YtkisxyVyQsKd1e6FyLTaGq8LOLhm6VLYHKqKNm+g==}
     requiresBuild: true
-    dev: true
 
   /@prisma/generator-helper/4.5.0:
     resolution: {integrity: sha512-4Ky6sIvTSylLkWQmwVezaw8bHE/TfsnoFyPHDphBOl5r/l3X2I1yy1g2kVAqNQ9phkEDzRX7ZIIn6w9jCGtOLg==}
@@ -169,6 +170,7 @@ packages:
 
   /@types/yauzl/2.10.0:
     resolution: {integrity: sha512-Cn6WYCm0tXv8p6k+A8PvbDG763EDpBoTzHdA+Q/MF6H3sapGjCm9NzoaJncJS9tUKSuCoDs9XHxYYsQDgxR6kw==}
+    requiresBuild: true
     dependencies:
       '@types/node': 18.11.9
     dev: true
@@ -377,6 +379,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [x64]
     os: [android]
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -385,6 +388,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [arm64]
     os: [android]
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -393,6 +397,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [x64]
     os: [darwin]
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -401,6 +406,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [arm64]
     os: [darwin]
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -409,6 +415,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [x64]
     os: [freebsd]
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -417,6 +424,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [arm64]
     os: [freebsd]
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -425,6 +433,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [ia32]
     os: [linux]
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -433,6 +442,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [x64]
     os: [linux]
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -441,6 +451,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [arm]
     os: [linux]
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -449,6 +460,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [arm64]
     os: [linux]
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -457,6 +469,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [mips64el]
     os: [linux]
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -465,6 +478,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [ppc64]
     os: [linux]
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -473,6 +487,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [riscv64]
     os: [linux]
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -481,6 +496,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [s390x]
     os: [linux]
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -489,6 +505,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [x64]
     os: [netbsd]
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -497,6 +514,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [x64]
     os: [openbsd]
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -505,6 +523,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [x64]
     os: [sunos]
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -513,6 +532,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [ia32]
     os: [win32]
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -521,6 +541,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [x64]
     os: [win32]
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -529,6 +550,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [arm64]
     os: [win32]
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -683,6 +705,7 @@ packages:
     resolution: {integrity: sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==}
     engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
     os: [darwin]
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -852,21 +875,20 @@ packages:
       thread-stream: 2.2.0
     dev: false
 
-  /prisma-erd-generator/1.2.2_prisma@4.5.0:
+  /prisma-erd-generator/1.2.2_u5kgfm7va5nxgxj5sebpt5i7rm:
     resolution: {integrity: sha512-Ji2UJoXZ4WyXdyFJWj7ojmMTABgRyU7GwrtAePleOHpaDL4z1wQfqVWbgIE/LD5SqrCONg0JzL7l4ngsPGvY+w==}
     engines: {node: '>=14'}
     hasBin: true
+    peerDependencies:
+      '@mermaid-js/mermaid-cli': ^9.1.7
+      '@prisma/client': ^4.0.0
     dependencies:
       '@mermaid-js/mermaid-cli': 9.1.7
       '@prisma/client': 4.5.0_prisma@4.5.0
       '@prisma/generator-helper': 4.5.0
       dotenv: 16.0.3
     transitivePeerDependencies:
-      - bufferutil
-      - encoding
-      - prisma
       - supports-color
-      - utf-8-validate
     dev: true
 
   /prisma/4.5.0:
@@ -876,7 +898,6 @@ packages:
     requiresBuild: true
     dependencies:
       '@prisma/engines': 4.5.0
-    dev: true
 
   /process-warning/2.0.0:
     resolution: {integrity: sha512-+MmoAXoUX+VTHAlwns0h+kFUWFs/3FZy+ZuchkgjyOu3oioLAo2LB5aCfKPh2+P9O18i3m43tUEv3YqttSy0Ww==}
